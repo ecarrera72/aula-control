@@ -1,0 +1,20 @@
+{
+    "SYSTEM": {
+        "PROCESS": [ "main.py" ]
+    },
+    "CIRCUIT": {
+        "PATTERN": "/dev/ttyACM",
+        "MODEL": "AZK-CAM",
+        "SERIE": "001",
+        "COMMAND": "S",
+        "BAUDIOS": 9600,
+        "TIMEOUT": 1.8
+    },
+    "KEYBOARD": {
+        "VIRTUAL-CAM": [ "ctrlleft", "shift", "k" ],
+        "CAM-1": [ "ctrlleft", "1" ],
+        "CAM-2": [ "ctrlleft", "2" ],
+        "CAM-3": [ "ctrlleft", "3" ],
+        "CAM-4": [ "ctrlleft", "4" ]
+    }
+}
